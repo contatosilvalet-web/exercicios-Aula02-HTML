@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Exercício Formulário</title>
+</head>
+<body>
+    <h1>Este é um Formulário para o Exercício da Aula de HTML</h1>
+    <p></p>
+
+    <p>Formulário de Informações Pessoais</p>
+    <p>Leia com atenção e preencha <strong>todas</strong> as perguntas.</p>
+
+<form action="/enviar" method="get">
+<label for="nome">Insira seu nome:</label>
+<input type="text" id="nome" name="nome" maxlength="30" required>
+
+<p></p>
+<label for="email">Insira seu E-mail:</label>
+<input type="email" id="email" name="email" required>
+
+<p></p>
+<label for="senha">Crie uma Senha:</label>
+<input type="password" id="senha" name="senha" minlength="8" required>
+<p></p>
+
+<label for="senha">Confirme sua Senha:</label>
+<input type="password" id="senha" name="senha"
+pattern="senha" title="As senhas devem ser iguais" required>
+<p></p>
+
+<label for="tiposanguineo">Qual seu tipo sanguíneo?</label>
+<input type="radio" id="tiposanguineo" name="tiposanguineo" value="tiposanguineo">
+<label for="A+">A+</label> 
+
+<input type="radio" id="tiposanguineo" name="tiposanguineo" value="tiposanguineo">
+<label for="A-">A-</label> 
+
+<input type="radio" id="tiposanguineo" name="tiposanguineo" value="tiposanguineo">
+<label for="B+">B+</label>
+
+<input type="radio" id="tiposanguineo" name="tiposanguineo" value="tiposanguineo">
+<label for="AB+">AB+</label> 
+
+<input type="radio" id="tiposanguineo" name="tiposanguineo" value="tiposanguineo">
+<label for="AB-">AB-</label> 
+
+<input type="radio" id="tiposanguineo" name="tiposanguineo" value="tiposanguineo">
+<label for="O+">O+</label>
+
+<input type="radio" id="tiposanguineo" name="tiposanguineo" value="tiposanguineo">
+<label for="O-">O-</label>
+<p></p>
+
+<label for="termosdeuso">Você concorda com os Termos de Uso?</label>
+<input type="checkbox" required> 
+<p></p>
+
+<label for="promocoes">Você gostaria de receber nossos e-mails de Promoções?</label>
+<input type="checkbox"checked> 
+<p></p>
+
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+<p></p>
+
+</form>
+</body>
+</html>
