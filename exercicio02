@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Exercício 02 Formulário TextArea para opiniões</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 02 Formulário TextArea para opiniões</title>
 </head>
+
 <body>
     <h2>Formulário para o Exercício 02 da Aula de HTML</h2>
 
-<form action="/enviar" method="get">
-<label for="mensagem">Deixe sua opinião:</label>
-<textarea id="mensagem" name="mensagem" rows="5" cols="33"></textarea>
-<button type="submit">Enviar</button>
+    <form action="/enviar" method="get">
+        <label for="mensagem">Deixe sua opinião:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="33"></textarea>
+        <button type="submit">Enviar</button>
 
-<p></p>
-<label for="nome">Insira seu nome:</label>
-<input type="text" id="nome" name="nome" maxlength="30" required>
-<p></p>
+        <p></p>
+        <label for="nome">Insira seu nome:</label>
+        <input type="text" id="nome" name="nome" maxlength="30" required>
+        <p></p>
 
-<label for="avaliacao">Faça uma avaliação sobre o desempenho do formulário:</label>
- <h5>Nota de 01 a 05 <em>(sendo 1 ruim e 5 excelente)</em></h5>
-<select id="avaliacao" name="notas">
-<option value="01">01</option>
-<option value="02">02</option>
-<option value="03">03</option>
-<option value="04">04</option>
-<option value="05">05</option>
-</select>
-<p></p>
+        <label for="avaliacao">Faça uma avaliação sobre o desempenho do formulário:</label>
+        <h5>Nota de 01 a 05 <em>(sendo 1 ruim e 5 excelente)</em></h5>
+        <select id="avaliacao" name="notas">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+        </select>
+        <p></p>
 
-<input type="submit" value="Enviar">
-<p></p>
-</form>
+        <input type="submit" value="Enviar">
+        <p></p>
+    </form>
 </body>
+
 </html>
