@@ -1,0 +1,41 @@
+Desafio: Clone
+Observar a imagem e:
+- Descrever quais campos do formulário estão sendo usados.
+
+Iniciando com a tag <form>
+01 <form action="/enviar">
+
+Dentro da caixinha "Dados Pessoais"
+01 <div> para divisão
+01 <fieldset> para agrupar o campo "Dados Pessoais",
+01 <legend>: legenda, para nomear o campo "Dados Pessoais",
+04 <p> para criar parágrafos em Nome, Endereço, Cidade, Estado, 
+04 <label>: para descrever o que cada campo precisa conter (Nome, Endereço, Cidade e Estado),
+03 <input> (de texto simples) para: Nome, Endereço e Cidade.
+
+01 <select>: para o menu de seleção de Estados,
+27 <option>: referentes aos 27 estados do Brasil,
+01 "selected": para o Estado de "São Paulo" já vir marcado.
+
+Dentro da caixinha "Dados Profissionais"
+01 <fieldset> para agrupar o campo "Dados Profissionais",
+01 <legend>: legenda, para nomear o campo "Dados Profissionais",
+
+01 <p> para criar parágrafo em:"Natureza do Cargo", 
+05 <input type="radio">: Botões que permitem uma única seleção de várias opções: 
+(Gerência, Financeiro, Recepção, Administrativo e Jurídico),
+
+01 <p> para criar parágrafo em:"Área de Interesse",
+05 <input type="checkbox">: Caixas de seleção múltipla para as "Áreas de Interesse":
+(Computação, Biologia, Meio Ambiente, Engenharia e História),
+
+01 <p> para para criar parágrafo em Mini-currículo
+01 <textarea>: Uma caixa de textarea para o preenchimento do "Mini-currículo".
+
+Botões de Envio do Formulário
+01 <p> para criar parágrafo em Enviar e Limpar
+01 <button type="submit">: 
+Botão "Enviar" para envio dos dados do formulário.
+
+01 <input type="reset">: 
+Botão "Limpar" para limpar todos os campos preenchidos.
